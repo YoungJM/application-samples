@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   annotations:
-    apps.open-cluster-management.io/do-not-delete: "false"
+    apps.open-cluster-management.io/do-not-delete: "true"
   name: helloworld-app-deploy
   labels:
     app: helloworld-app
